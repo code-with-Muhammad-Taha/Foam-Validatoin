@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form autocomplete="off" id="userForm">
+  <h2>User Registration</h2>
+
+  <label>First Name</label>
+  <input type="text" id="firstName">
+  <small id="firstNameError" class="messageError"></small>
+
+  <label>Last Name</label>
+  <input type="text" id="lastName">
+  <small id="lastNameError" class="messageError"></small>
+
+  <label>Email</label>
+  <input type="text" id="email">
+  <small id="emailError" class="messageError"></small>
+
+  <label>Contact Number</label>
+  <input type="text" id="contactNumber">
+  <small id="contactNumberError" class="messageError"></small>
+
+  <label>Address</label>
+  <input type="text" id="address">
+  <small id="addressError" class="messageError"></small>
+
+  <label>City</label>
+  <input type="text" id="city">
+  <small id="cityError" class="messageError"></small>
+
+  <button type="submit">Submit</button>
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
